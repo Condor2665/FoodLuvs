@@ -12,14 +12,20 @@ CSS Styling
   text-align: center;
 }
 
+.daysContainer{
+  display: flex;
+}
+
 .days {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 25px;
 }
 
 .day {
   flex: 1;
   border: 1px solid #ccc;
+  margin: 20px;
   padding: 20px;
   text-align: center;
 }
@@ -28,8 +34,10 @@ CSS Styling
     width: 130px;
     height: 100px;
     border: 2px dashed #ccc;
-    /* margin: 20px; */
-    position: relative;
+    margin: 15px;
+    padding: 10px;
+    
+    justify-content: center;
     
     
 }
