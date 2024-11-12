@@ -49,9 +49,18 @@
 
     <div>
         <button type="button" class="btn btn-primary">Get Shopping List</button>
-        <button type="button" class="btn btn-primary">Save Meal Plan</button>
+        <button id = "saveButton" class="btn btn-primary">Save Meal Plan </button>
 
     </div>
+    <!-- Modal structure -->
+<div id="confirmationModal" class="modal">
+  <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <p>Are you sure you want to save?</p>
+      <button id="confirmButton">Confirm</button>
+      <button id="cancelButton">Cancel</button>
+  </div>
+</div>
     
 </body>
 
@@ -59,4 +68,5 @@
     <div class="footer">
         <p>© 2021 FoodLuvs</p>
     </div>
+    <script src="Assets/JS/script.js"></script>
 </html>
